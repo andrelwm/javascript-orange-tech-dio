@@ -25,8 +25,6 @@ class Carro {
 
 meuCarro = new Carro('Corsa', 'Preto', 1/11);
 
-console.log(meuCarro);
-
 gasto = meuCarro.gastoTotal(10, 5);
 
 console.log(gasto);
