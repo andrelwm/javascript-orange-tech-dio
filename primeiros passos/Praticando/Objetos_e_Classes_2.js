@@ -18,7 +18,7 @@ class Pessoa {
     }
 
     imc() {
-        return this.peso / (this.altura * this.altura)
+        return (this.peso / (this.altura * this.altura)).toFixed(2);
     }
 }
 
