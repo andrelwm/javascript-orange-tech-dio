@@ -5,7 +5,6 @@
 
 body {
     background-color: #f6f8fc;
-    margin: 1rem;
 }
 
 .content {
@@ -34,6 +33,15 @@ body {
 @media screen and (min-width: 992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
